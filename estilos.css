@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+width: 1200px;
+height: 1000px;
+margin: 0.5em auto;
+padding: 00.5em;
+}
+#titulo{
+    height: 5%;
+    background: #005883;
+    border-radius: 1em  ;
+    margin: 1em;
+    text-align: center;
+    }
+#menu{
+    height: 3%;
+    background: #F0B429;
+    border-radius: 1em  ;
+    margin: 1em;
+    text-align: center;
+        }
+#contenido{
+            height: 80%;
+            margin: 1em;
+            }
+#pie{
+height: 5%;
+background:#005883;
+border-radius: 1em  ;
+margin: 1em;
+}
+#seccion{
+    height: 100%;
+    width: 60%;
+    border-radius: 1em  ;
+    float: left;
+}
+#aside{
+    height: 100%;
+    width: 39%; 
+    border-radius: 1em;
+    float: right;
+}
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.articulo{
+    height: 5%;
+    width: 25%;
+    background: whitesmoke;
+    border-radius: 1em  ;
+    text-align: center;
+ }
+ .li{
+     font-style: normal;
+     color: #808080;
+
+ }
+

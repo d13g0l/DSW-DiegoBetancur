@@ -59,4 +59,19 @@ margin: 1em;
      color: #808080;
 
  }
-
+.titulosh2{
+    font-size: 4mm;
+}
+.textos{
+    color: 808080; 
+    font-size: 3mm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.centrado{
+    margin:250px auto;
+    display:block;
+  }
+  .centrado1{
+    margin:115px auto;
+    display:block;
+  }

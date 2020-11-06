@@ -14,8 +14,27 @@
             <div id="seccion">
                 <article class="articulo"><h1> <a style="color:  #005883" href= "conceptos1.html"> CONCEPTOS1 </a> </h1></article><br>
                 <article class="articulo"><h1> <a style="color: #50B748;" href= "conceptos2.html"> CONCEPTOS2 </a> </h1></article><br>
+                <div style="background-color:#50B748; color: white;"><h1 style="text-align: center;font-size: 5mm;"> Formas de aplicar CSS </h1></div><br>
+                <p style="color: 808080; font-size: 3mm; font-family: Arial, Helvetica, sans-serif;"> Existen dos formas adicionales de aplicar estilos CSS: en la parte inicial del documento HTML (aplicación de estilos interna o CSS interno) o en un archivo de extensión .css independiente del archivo HTML (aplicación de estilos externa o CSS externo).
+                </p><br>
+                <h2 class="titulosh2">CSS INTERNO</h2><br>
+                <p class="textos">Dentro de las etiquetas <strong>&lt;head&gt; … &lt;/head&gt;</strong> incluimos una etiqueta de apertura donde declaramos los estilos <strong>&lt;style type=”text/css”&gt;,</strong> y a continuación colocaremos la definición de tantos estilos deseemos y cerraremos la declaración con <strong>&lt;/style&gt;.</strong> En HTML 5 no es necesario especificar type =”text/css”. <br><br>Al aplicar estilos en línea, tenemos que repetir la aplicación de estilos en cada una de las líneas que queramos modificar y en cada ocasión afectamos únicamente una línea. Con la aplicación de estilos interna nos basta con declarar una vez el estilo y el tipo de elemento al que se aplica, y automáticamente se aplicará a todos los elementos de ese tipo existentes dentro de la página web. Esto permite que en una página web de gran extensión nos ahorremos tener que escribir múltiples veces la definición de estilos (una en cada línea), ya que una sola declaración inicial nos bastará, lo cual es una ventaja bastante evidente.</p><br>
+                <h2 class="titulosh2">CSS EXTERNO</h2><br>
+                <p class="textos">Aunque el CSS interno nos permite unificar en una declaración todos los estilos para un archivo html, seguimos teniendo el problema de tener que repetir la definición de estilos en la cabecera de cada uno de los archivos html de nuestro desarrollo web. <br><br> Es importante tener en cuenta que si la página contiene pocas líneas en su código quizás sea más sencillo su concepción y esta metodología de trabajo, pero cuando el código empleado tiene cientos o miles de archivos y líneas, se convierte en un problema el manejo y diseño, ya que cada vez que introdujéramos cambios debemos hacerlo en los múltiples archivos de que constara el desarrollo. <br><br>Con el fin de optimizar los tiempos de diseño y codificación se ideó la declaración externa de CSS, la cual está basada en declarar los estilos CSS en un archivo independiente que puede servir como referente para dotar de estilos a decenas, cientos o miles de archivos html, que únicamente deberán invocar el nombre de archivo utilizando una sintaxis específica. De este modo un cambio en los estilos habrá que hacerlo únicamente en el archivo de estilos correspondiente, lo cual supone una gran ventaja. Incluso un cambio completo de los estilos de una página web se puede conseguir simplemente sustituyendo el archivo correspondiente.</p><br><br>
+                <h2 class="titulosh2">SELECTORES CSS</h2><br>
+                <p class="textos">Los selectores, son objetos que utilizaremos para seleccionar una serie de etiquetas a los que por medio de la modificación de sus atributos nos permitirán editar el diseño del contenido y dentro de los más empleados tenemos: </p><br>
+                <nav>
+                    <li style="font-size: 4mm;"> <b style="color: #F0B429;">Clase</b> - Su Sintaxis es: <strong style="color: #005883;">.nombreClase</strong></li>
+                    <li style="font-size: 4mm;"> <b style="color: #F0B429;">Id</b> - Su Sintaxis es: <strong style="color: #005883;">#nombreId</strong></li>
+                    <li style="font-size: 4mm;"> <b style="color: #F0B429;">Conjunto de elementos</b> - Su Sintaxis es: <strong style="color: #005883;">h1 , h2 , h3</strong></li>
+                    <li style="font-size: 4mm;"> <b style="color: #F0B429;">Selectores descendientes</b> - Su Sintaxis es: <strong style="color: #005883;">article p</strong></li>
+                    <li style="font-size: 4mm;"> <b style="color: #F0B429;">Selectores de hijos directos</b> - Su Sintaxis es: <strong style="color: #005883;">li > ul > li</strong></li>
+                </nav>
             </div>
-            <div id="aside">
+            <div id="aside" >
+                <div class="centrado">
+                    <img src="imagenes/Antes_Ahora.jpg" alt="Antes_Ahora" > 
+                </div>
             </div>
         </div>
         <div id="pie">
